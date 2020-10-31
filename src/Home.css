@@ -1,0 +1,86 @@
+html, body {
+  	height: 100%;
+}
+body {
+	margin: 0;
+	text-align: center;
+	background-color: whitesmoke;
+	
+}
+
+.container2 {
+	padding-top: 50px;
+	margin: auto;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.services-section{
+    background: url(bg.jpg);
+    background-size: cover;
+	padding: 80px 0;
+	height: 100vh;
+  }
+  .inner-width{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+    overflow: hidden;
+  }
+  .section-title{
+    text-align: center;
+    color: #ddd;
+   
+    font-size: 30px;
+  }
+  .border{
+    width: 350px;
+    height: 2px;
+    background: #82ccdd !important;
+    margin: 10px auto;
+  }
+  .services-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .service-box{
+    max-width: 33.33%;
+    padding: 10px;
+    text-align: center;
+    color: #ddd;
+    cursor: pointer;
+  }
+  
+  
+  .service-title{
+    font-size: 18px;
+    text-transform: uppercase;
+	margin-bottom: 10px;
+	font-weight: 400 !important;
+  }
+  .service-desc{
+    font-size: 14px;
+  }
+  
+  @media screen and (max-width:960px) {
+    .service-box{
+      max-width: 45%;
+    }
+  }
+  
+  @media screen and (max-width:768px) {
+    .service-box{
+      max-width: 50%;
+    }
+  }
+  
+  @media screen and (max-width:480px) {
+    .service-box{
+      max-width: 100%;
+    }
+  }
+ 
