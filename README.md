@@ -5,15 +5,15 @@
 
 ## Features
 
- ### 1) Attention Tracker Tool
+ ### Attention Tracker Tool
 > Perhaps one of the most important aspects of classroom teaching involves teachers being able to gauge the reaction of students by looking at their faces and see if they are paying attention. The teacher could change their style of teaching or ask the student to pay attention when they are doing not so. Attention tracker tool enables teachers to check if the students are paying attention to what is being taught and check if they need to change something.EasEL uses Machine Learning model to detect attentiveness and an API for closed captions.
 
-### 2) Closed Captions
+### Closed Captions
 > Even when everyone does understands English, it is possible students are not able to comprehend what the teacher is saying due to factors such as the speed of the speech or the accent the teacher might have.
 Another thing being, when a student wishes to make their notes during the duration of the class, they don't have to take out a notebook and write down everything. Using this feature, students can make notes using voice recognition.
 These notes can be saved and downloaded by the user before they close the application.
 
-### 3) EasEL Classroom
+### EasEL Classroom
 > A user can start or join a meet using this feature. It includes: 
 > - Video meet/ Camera 
 > - Voice/ Microphone 
@@ -43,5 +43,5 @@ $ nodemon app.js
 
 <hr>
 <p align="center">
-	With :heart: &nbsp;by <a href="https://skyfall-easel.herokuapp.com/" target="_blank">SKY FALL</a>
+	Made with :heart: &nbsp;by <a href="https://skyfall-easel.herokuapp.com/" target="_blank">SKY FALL</a>
 </p>
