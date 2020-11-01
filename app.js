@@ -28,4 +28,6 @@ app.get('/analyzer',function(req,res){
     res.render('analyzer');
 })
 
-app.listen(5000,console.log('Server is connected to 5000'))
+var PORT = process.env.PORT || 5000;
+
+app.listen(PORT, console.log(`Server started on port ${PORT}`));
