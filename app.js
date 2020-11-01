@@ -21,5 +21,11 @@ app.use('/',express.static(__dirname+"/assets"))
 app.get('/',function(req,res){
     res.render('index');
 })
+app.get('/notes',function(req,res){
+    res.render('notes');
+})
+app.get('/analyzer',function(req,res){
+    res.render('analyzer');
+})
 
 app.listen(5000,console.log('Server is connected to 5000'))
