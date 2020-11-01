@@ -9,6 +9,10 @@ html{
 	font-family: "Roboto Cn", sans-serif;
 }
 
+#main-hero{
+	margin-left:28% ;
+}
+
 a{
 	text-decoration: none;
 	color: #eee;
@@ -762,6 +766,15 @@ a.hvr-radial-out:focus {
   }
 
   /*footer ends here*/
+  @media screen and (max-width:748px) {
+	 
+    #main-hero{
+		align-items: center;
+		margin-top: 30% !important;
+		margin-left: 0 !important;
+	}
+  }
+  
   @media screen and (max-width:480px) {
 	 
     #teamcard{
